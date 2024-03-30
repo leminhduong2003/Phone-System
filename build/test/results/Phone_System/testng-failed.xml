@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Phone_System]">
+  <test junit="true" thread-count="5" name="phonesystem.edu.dao.SanPhamDAOTest(failed)">
+    <classes>
+      <class name="org.junit.runner.Description">
+        <methods>
+          <include name="testInsertIsNull"/>
+          <include name="testInsertValid"/>
+        </methods>
+      </class> <!-- org.junit.runner.Description -->
+    </classes>
+  </test> <!-- phonesystem.edu.dao.SanPhamDAOTest(failed) -->
+</suite> <!-- Failed suite [Phone_System] -->

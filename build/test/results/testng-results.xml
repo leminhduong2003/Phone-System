@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-15T01:12:31Z" name="Phone_System" finished-at="2023-04-15T01:12:31Z" duration-ms="163">
+    <groups>
+    </groups>
+    <test started-at="2023-04-15T01:12:31Z" name="phonesystem.edu.entity.TaiKhoanTest" finished-at="2023-04-15T01:12:31Z" duration-ms="163">
+      <class name="phonesystem.edu.entity.TaiKhoanTest">
+        <test-method signature="testNullPassword()" started-at="2023-04-15T01:12:31Z" name="testNullPassword" finished-at="2023-04-15T01:12:31Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullPassword -->
+        <test-method signature="testLoginSuccess()" started-at="2023-04-15T01:12:31Z" name="testLoginSuccess" finished-at="2023-04-15T01:12:31Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method signature="testLenghtOfPassword()" started-at="2023-04-15T01:12:31Z" name="testLenghtOfPassword" finished-at="2023-04-15T01:12:31Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLenghtOfPassword -->
+        <test-method signature="testNullBoth()" started-at="2023-04-15T01:12:31Z" name="testNullBoth" finished-at="2023-04-15T01:12:31Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullBoth -->
+        <test-method signature="testAddSuccess()" started-at="2023-04-15T01:12:31Z" name="testAddSuccess" finished-at="2023-04-15T01:12:31Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddSuccess -->
+        <test-method signature="testWrongUserName()" started-at="2023-04-15T01:12:31Z" name="testWrongUserName" finished-at="2023-04-15T01:12:31Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongUserName -->
+        <test-method signature="testPasswordLagerThan15()" started-at="2023-04-15T01:12:31Z" name="testPasswordLagerThan15" finished-at="2023-04-15T01:12:31Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordLagerThan15 -->
+        <test-method signature="testWrongBoth()" started-at="2023-04-15T01:12:31Z" name="testWrongBoth" finished-at="2023-04-15T01:12:31Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongBoth -->
+        <test-method signature="testUsernameSmallerThan6()" started-at="2023-04-15T01:12:31Z" name="testUsernameSmallerThan6" finished-at="2023-04-15T01:12:31Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsernameSmallerThan6 -->
+        <test-method signature="testFindSucces()" started-at="2023-04-15T01:12:31Z" name="testFindSucces" finished-at="2023-04-15T01:12:31Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindSucces -->
+        <test-method signature="testInvalidCharactorUsername()" started-at="2023-04-15T01:12:31Z" name="testInvalidCharactorUsername" finished-at="2023-04-15T01:12:31Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidCharactorUsername -->
+        <test-method signature="testWrongPassword()" started-at="2023-04-15T01:12:31Z" name="testWrongPassword" finished-at="2023-04-15T01:12:31Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongPassword -->
+        <test-method signature="testLenghtOfUsername()" started-at="2023-04-15T01:12:31Z" name="testLenghtOfUsername" finished-at="2023-04-15T01:12:31Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLenghtOfUsername -->
+        <test-method signature="testUsernameLagerThan15()" started-at="2023-04-15T01:12:31Z" name="testUsernameLagerThan15" finished-at="2023-04-15T01:12:31Z" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsernameLagerThan15 -->
+        <test-method signature="testInvalidCharactorPassword()" started-at="2023-04-15T01:12:31Z" name="testInvalidCharactorPassword" finished-at="2023-04-15T01:12:31Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidCharactorPassword -->
+        <test-method signature="testPasswordSmallerThan6()" started-at="2023-04-15T01:12:31Z" name="testPasswordSmallerThan6" finished-at="2023-04-15T01:12:31Z" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordSmallerThan6 -->
+        <test-method signature="testNullUserName()" started-at="2023-04-15T01:12:31Z" name="testNullUserName" finished-at="2023-04-15T01:12:31Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullUserName -->
+        <test-method signature="testRoleIsEmployee()" started-at="2023-04-15T01:12:31Z" name="testRoleIsEmployee" finished-at="2023-04-15T01:12:31Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRoleIsEmployee -->
+      </class> <!-- phonesystem.edu.entity.TaiKhoanTest -->
+    </test> <!-- phonesystem.edu.entity.TaiKhoanTest -->
+  </suite> <!-- Phone_System -->
+</testng-results>

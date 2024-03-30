@@ -1,0 +1,309 @@
+<html>
+<head>
+<title>TestNG:  phonesystem.edu.dao.SanPhamDAOTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>phonesystem.edu.dao.SanPhamDAOTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Apr 15 08:07:56 ICT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (853 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='phonesystem.edu.dao.SanPhamDAOTest.testInsertIsNull()'><b>testInsertIsNull</b><br>Test class: phonesystem.edu.dao.SanPhamDAOTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;phonesystem.edu.entity.SanPham.getMaSanPham()&quot; because &quot;entity&quot; is null
+	at phonesystem.edu.dao.SanPhamDAO.insert(SanPhamDAO.java:41)
+	at phonesystem.edu.dao.SanPhamDAOTest.testInsertIsNull(SanPhamDAOTest.java:51)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1020154737", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1020154737'><pre>java.lang.NullPointerException: Cannot invoke &quot;phonesystem.edu.entity.SanPham.getMaSanPham()&quot; because &quot;entity&quot; is null
+	at phonesystem.edu.dao.SanPhamDAO.insert(SanPhamDAO.java:41)
+	at phonesystem.edu.dao.SanPhamDAOTest.testInsertIsNull(SanPhamDAOTest.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:82)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:70)
+	at org.testng.TestRunner$1.run(TestRunner.java:570)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:717)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:601)
+	at org.testng.TestRunner.run(TestRunner.java:502)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.TestNG.privateMain(TestNG.java:1354)
+	at org.testng.TestNG.main(TestNG.java:1323)
+</pre></div></td>
+<td>0</td>
+<td>testInsertIsNull(phonesystem.edu.dao.SanPhamDAOTest)</td></tr>
+<tr>
+<td title='phonesystem.edu.dao.SanPhamDAOTest.testInsertValid()'><b>testInsertValid</b><br>Test class: phonesystem.edu.dao.SanPhamDAOTest</td>
+<td><div><pre>java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint &apos;PK__SanPham__FAC7442D10756ABE&apos;. Cannot insert duplicate key in object &apos;dbo.SanPham&apos;. The duplicate key value is (SP020).
+	at phonesystem.edu.ultil.jdbcHelper.update(jdbcHelper.java:56)
+	at phonesystem.edu.dao.SanPhamDAO.insert(SanPhamDAO.java:40)
+	at phonesystem.edu.dao.SanPhamDAOTest.testInsertValid(SanPhamDAOTest.java:60)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint &apos;PK__SanPham__FAC7442D10756ABE&apos;. Cannot insert duplicate key in object &apos;dbo.SanPham&apos;. The duplicate key value is (SP020).
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:262)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1632)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:600)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:522)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7225)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:3053)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:247)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:222)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(SQLServerPreparedStatement.java:471)
+	at phonesystem.edu.ultil.jdbcHelper.update(jdbcHelper.java:53)
+	... 46 more
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1807648168", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1807648168'><pre>java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint &apos;PK__SanPham__FAC7442D10756ABE&apos;. Cannot insert duplicate key in object &apos;dbo.SanPham&apos;. The duplicate key value is (SP020).
+	at phonesystem.edu.ultil.jdbcHelper.update(jdbcHelper.java:56)
+	at phonesystem.edu.dao.SanPhamDAO.insert(SanPhamDAO.java:40)
+	at phonesystem.edu.dao.SanPhamDAOTest.testInsertValid(SanPhamDAOTest.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:82)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:70)
+	at org.testng.TestRunner$1.run(TestRunner.java:570)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:717)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:601)
+	at org.testng.TestRunner.run(TestRunner.java:502)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.TestNG.privateMain(TestNG.java:1354)
+	at org.testng.TestNG.main(TestNG.java:1323)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint &apos;PK__SanPham__FAC7442D10756ABE&apos;. Cannot insert duplicate key in object &apos;dbo.SanPham&apos;. The duplicate key value is (SP020).
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:262)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1632)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:600)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:522)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7225)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:3053)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:247)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:222)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(SQLServerPreparedStatement.java:471)
+	at phonesystem.edu.ultil.jdbcHelper.update(jdbcHelper.java:53)
+	... 46 more
+</pre></div></td>
+<td>0</td>
+<td>testInsertValid(phonesystem.edu.dao.SanPhamDAOTest)</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='phonesystem.edu.dao.SanPhamDAOTest.testDelete_SanPham()'><b>testDelete_SanPham</b><br>Test class: phonesystem.edu.dao.SanPhamDAOTest</td>
+<td></td>
+<td>0</td>
+<td>testDelete_SanPham(phonesystem.edu.dao.SanPhamDAOTest)</td></tr>
+<tr>
+<td title='phonesystem.edu.dao.SanPhamDAOTest.testRestore()'><b>testRestore</b><br>Test class: phonesystem.edu.dao.SanPhamDAOTest</td>
+<td></td>
+<td>0</td>
+<td>testRestore(phonesystem.edu.dao.SanPhamDAOTest)</td></tr>
+<tr>
+<td title='phonesystem.edu.dao.SanPhamDAOTest.testSelectByid()'><b>testSelectByid</b><br>Test class: phonesystem.edu.dao.SanPhamDAOTest</td>
+<td></td>
+<td>0</td>
+<td>testSelectByid(phonesystem.edu.dao.SanPhamDAOTest)</td></tr>
+<tr>
+<td title='phonesystem.edu.dao.SanPhamDAOTest.testSelect_All_TheoTenSP()'><b>testSelect_All_TheoTenSP</b><br>Test class: phonesystem.edu.dao.SanPhamDAOTest</td>
+<td></td>
+<td>0</td>
+<td>testSelect_All_TheoTenSP(phonesystem.edu.dao.SanPhamDAOTest)</td></tr>
+<tr>
+<td title='phonesystem.edu.dao.SanPhamDAOTest.testUpdateValid()'><b>testUpdateValid</b><br>Test class: phonesystem.edu.dao.SanPhamDAOTest</td>
+<td></td>
+<td>0</td>
+<td>testUpdateValid(phonesystem.edu.dao.SanPhamDAOTest)</td></tr>
+<tr>
+<td title='phonesystem.edu.dao.SanPhamDAOTest.testUpdate_SoLuong()'><b>testUpdate_SoLuong</b><br>Test class: phonesystem.edu.dao.SanPhamDAOTest</td>
+<td></td>
+<td>0</td>
+<td>testUpdate_SoLuong(phonesystem.edu.dao.SanPhamDAOTest)</td></tr>
+<tr>
+<td title='phonesystem.edu.dao.SanPhamDAOTest.testUpdate_trangThai()'><b>testUpdate_trangThai</b><br>Test class: phonesystem.edu.dao.SanPhamDAOTest</td>
+<td></td>
+<td>0</td>
+<td>testUpdate_trangThai(phonesystem.edu.dao.SanPhamDAOTest)</td></tr>
+<tr>
+<td title='phonesystem.edu.dao.SanPhamDAOTest.testUpdateisNull()'><b>testUpdateisNull</b><br>Test class: phonesystem.edu.dao.SanPhamDAOTest</td>
+<td></td>
+<td>0</td>
+<td>testUpdateisNull(phonesystem.edu.dao.SanPhamDAOTest)</td></tr>
+</table><p>
+</body>
+</html>
